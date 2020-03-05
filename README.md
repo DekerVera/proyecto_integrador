@@ -41,3 +41,12 @@ red 7: 170.100.7.1/ 255.255.255.240
 red 8: 170.100.8.1/ 255.255.255.240
 
 red 9: 170.100.9.1/ 255.255.255.192
+Todos los puertos troncales fueron asignados al puerto 1 de cada red, además se configuró las vlans nativas para poder tener control de todas las redes. Una vlan nativa está asignada a un puerto troncal. Los puertos de enlace troncal son los enlaces entre switches que admiten la transmisión de tráfico asociado a más de una vlan. Los puertos de enlace troncal admiten el tráfico proveniente de muchas vlan (tráfico con etiquetas), así como el tráfico que no proviene de una vlan (tráfico sin etiquetar).
+
+Restricciones Se realizó la simulación de la topología en Cisco Packet Tracer versión 7.3 para el diseño de la red ya que es de fácil utilización y nos permite analizar el contenido de los paquetes para poder corregir posibles errores al simular la conectividad. Para realizar correctamente la simulación de la red se siguió los siguientes lineamientos:
+
+Se usó switch de diseño 2960-24TT
+Se usó PC genéricos.
+Se utilizó cables de conexión directa para toda la red.
+Se asignó IP estática a todas las PC de la red.
+Se configuro 9 vlans para cada manzana de la urbanización.
